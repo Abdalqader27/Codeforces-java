@@ -1,25 +1,49 @@
-package com.Elkood;
+package com.Elkood.B;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.StringTokenizer;
+import java.util.*;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 
-public class Main {
+public class Decoding_746B {
+
+    static int n;
+    static String a;
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new FastReader(), pw);
+        Input(new FastReader());
+        Solve(pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(FastReader input, PrintWriter pw) {
+    public static void Solve(PrintWriter pw) {
+        StringBuilder t = new StringBuilder();
+        t.append(a.charAt(0));
+        for (int i = 1; i < a.length(); ++i) {
+            if (i % 2 == 0) {
+                t.append(a.charAt(i));
+            } else {
+                t.insert(0, a.charAt(i));
+            }
+        }
+        if (n % 2 != 0)
+            pw.println(t.toString());
+        else pw.println(t.reverse().toString());
 
     }
+
+
+    public static void Input(FastReader input) {
+        n = input.nextInt();
+        a = input.nextLine();
+    }
+
 
     public static class FastReader {
 
@@ -126,5 +150,3 @@ public class Main {
 
 
 }
-
-

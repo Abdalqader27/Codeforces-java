@@ -1,14 +1,16 @@
-package com.Elkood;
+package com.Elkood.A;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.StringTokenizer;
 import java.util.stream.IntStream;
 
 
-public class Main {
+public class Distinct_Digits_1228A {
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
@@ -17,7 +19,34 @@ public class Main {
         pw.close();
     }
 
+
     public static void Input(FastReader input, PrintWriter pw) {
+        int m, n = 0;
+        n = input.nextInt();
+        m = input.nextInt();
+        int i = n;
+        while (i <= m) {
+            String b = String.valueOf(i);
+            Map<Character, Integer> map = new HashMap<>();
+
+            IntStream.range(0, b.length()).forEach(j -> {
+                if (!map.containsKey(b.charAt(j))) {
+                    map.put(b.charAt(j), 1);
+                } else {
+                    int o = map.get(b.charAt(j)) + 1;
+                    map.put(b.charAt(j), o);
+                }
+            });
+            boolean v = map.entrySet().stream().noneMatch(l -> l.getValue() > 1);
+            if (v) {
+                pw.println(b);
+                pw.flush();
+                pw.close();
+                System.exit(0);
+            }
+            i++;
+        }
+        pw.println(-1);
 
     }
 
@@ -126,5 +155,3 @@ public class Main {
 
 
 }
-
-

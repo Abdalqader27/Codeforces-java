@@ -1,14 +1,15 @@
-package com.Elkood;
+package com.Elkood.A;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.StringTokenizer;
-import java.util.stream.IntStream;
+import java.util.*;
 
 
-public class Main {
+public class Nauuo_and_Votes {
+
+    static int x, y, z;
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
@@ -17,8 +18,12 @@ public class Main {
         pw.close();
     }
 
-    public static void Input(FastReader input, PrintWriter pw) {
 
+    public static void Input(FastReader input, PrintWriter pw) {
+        x = input.nextInt();
+        y = input.nextInt();
+        z = input.nextInt();
+        pw.println((x > z && x > y && x - y > z) ? "+" : (y > x && y > z && y - x > z) ? "-" : (x == y & x - y == z) ? "0" : "?");
     }
 
     public static class FastReader {
@@ -126,5 +131,3 @@ public class Main {
 
 
 }
-
-

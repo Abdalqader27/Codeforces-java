@@ -1,25 +1,45 @@
-package com.Elkood;
+package com.Elkood.B;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.StringTokenizer;
-import java.util.stream.IntStream;
+import java.util.*;
 
-
-public class Main {
+public class Regular_Bracket_Sequence_26B {
+    static String a;
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new FastReader(), pw);
+        Input(new FastReader());
+        Solve(pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(FastReader input, PrintWriter pw) {
+    public static void Solve(PrintWriter pw) {
+        int c = 0;
+        int t = 0;
+        int i = 0;
+        while (i < a.length()) {
+            if (a.charAt(i) == '(') c++;
+            else {
+                if (c != 0) {
+                    c--;
+                    t += 2;
+                }
+            }
+            ++i;
+        }
+        pw.println(t);
 
     }
+
+
+    public static void Input(FastReader input) {
+        a = input.nextLine();
+    }
+
 
     public static class FastReader {
 
@@ -126,5 +146,4 @@ public class Main {
 
 
 }
-
 

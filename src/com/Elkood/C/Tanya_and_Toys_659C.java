@@ -1,25 +1,53 @@
-package com.Elkood;
+package com.Elkood.C;
+
+import static java.lang.System.out;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.PrintWriter;
-import java.util.StringTokenizer;
+import java.util.*;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 
-public class Main {
+public class Tanya_and_Toys_659C {
+
+    static int n, m;
+    static int[] a;
 
     public static void main(String[] args) {
-        PrintWriter pw = new PrintWriter(System.out);
-        Input(new FastReader(), pw);
-        pw.flush();
-        pw.close();
+        Input(new FastReader());
+        Solve();
     }
 
-    public static void Input(FastReader input, PrintWriter pw) {
+    public static void Solve() {
+        ArrayList<Integer> ll = new ArrayList<>();
+        Map<Integer, Integer> map = IntStream.range(0, a.length).boxed().collect(Collectors.toMap(i -> a[i], i -> i + 1, (a1, b) -> b));
+        int i = 1;
+        while (i < 1000000) {
+            if (!map.containsKey(i)) {
+                if (i <= m) {
+                    m -= i;
+                    ll.add(i);
+                } else break;
+            }
+            i++;
+        }
+        out.println(ll.size());
+        for (int x : ll) {
+            out.print(x + " ");
+
+        }
+    }
+
+    public static void Input(FastReader input) {
+        n = input.nextInt();
+        m = input.nextInt();
+        a = new int[n];
+        IntStream.range(0, n).forEach(i -> a[i] = input.nextInt());
 
     }
+
 
     public static class FastReader {
 
@@ -126,5 +154,3 @@ public class Main {
 
 
 }
-
-

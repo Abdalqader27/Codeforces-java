@@ -1,24 +1,62 @@
-package com.Elkood;
+package com.Elkood.A;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.StringTokenizer;
+import java.util.*;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 
-public class Main {
+public class Fingerprints_994A {
+
+    static int n, m;
+    static int[] a, b;
+
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new FastReader(), pw);
+        Input(new FastReader());
+        Solve(pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(FastReader input, PrintWriter pw) {
+    public static void Solve(PrintWriter pw) {
+        Map<Integer, Integer> map = IntStream.range(0, b.length)
+                .boxed().collect(Collectors.toMap(i -> b[i], i -> i + 1, (a1, b1) -> b1));
+        ArrayList<S> ll = new ArrayList<>();
+        for (int value : a) {
+            if (map.containsKey(value)) {
+                ll.add(new S(value, true));
+            } else {
+                ll.add(new S(value, false));
 
+            }
+        }
+        IntStream.range(0, ll.size()).filter(i -> ll.get(i).I).
+                mapToObj(i -> ll.get(i).num + " ").forEach(pw::print);
+    }
+
+    public static void Input(FastReader input) {
+        n = input.nextInt();
+        m = input.nextInt();
+        a = new int[n];
+        b = new int[m];
+        a = input.nextIntArray();
+        b = input.nextIntArray();
+
+    }
+
+    static class S {
+        int num;
+        boolean I;
+
+        public S(int num, boolean i) {
+            this.num = num;
+            I = i;
+        }
     }
 
     public static class FastReader {
@@ -126,5 +164,3 @@ public class Main {
 
 
 }
-
-

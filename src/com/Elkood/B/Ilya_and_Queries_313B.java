@@ -1,25 +1,53 @@
-package com.Elkood;
+package com.Elkood.B;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.StringTokenizer;
+import java.util.*;
 import java.util.stream.IntStream;
 
 
-public class Main {
+public class Ilya_and_Queries_313B {
+
+    static String x;
+    static int n;
+    static int[] dp;
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
         Input(new FastReader(), pw);
+        Solve(pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(FastReader input, PrintWriter pw) {
+    public static void Solve(PrintWriter pw) {
+
 
     }
+
+
+    public static void Input(FastReader input, PrintWriter pw) {
+        x = input.nextLine();
+        n = input.nextInt();
+        dp = new int[x.length()];
+        dp[0] = 0;
+        IntStream.range(1, x.length()).forEach(i -> {
+            if (x.charAt(i - 1) == x.charAt(i)) {
+                dp[i] = dp[i - 1] + 1;
+            } else {
+                dp[i] = dp[i - 1];
+            }
+        });
+        IntStream.range(0, n).map(i -> input.nextInt()).forEach(l -> {
+            int ll = input.nextInt();
+            pw.println(Math.abs(dp[l - 1] - dp[ll - 1]));
+        });
+
+
+    }
+
 
     public static class FastReader {
 
@@ -126,5 +154,3 @@ public class Main {
 
 
 }
-
-

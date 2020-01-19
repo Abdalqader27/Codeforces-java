@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09f7fca1-919f-4dd2-8b47-c45182058aab" name="Default Changelist" comment="" />
+    <list default="true" id="09f7fca1-919f-4dd2-8b47-c45182058aab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/Elkood/A/Circle_of_Students_A1203.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Elkood/A/Distinct_Digits_1228A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Elkood/A/Even_Substrings_1139A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Elkood/A/Find_Square_1028A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Elkood/A/Fingerprints_994A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Elkood/A/Game_984A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Elkood/A/Generous_Kefa_841A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Elkood/A/Good_Matrix_Elements_177A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Elkood/A/Grasshopper_And_the_String_733A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Elkood/A/Infinity_Gauntlet_987A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Elkood/A/Nauuo_and_Votes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Elkood/B/Decoding_746B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Elkood/B/Ilya_and_Queries_313B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Elkood/B/Regular_Bracket_Sequence_26B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Elkood/C/Appleman_and_Toastman_462C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Elkood/C/Dishonest_Sellers_779C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Elkood/C/Tanya_and_Toys_659C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Elkood/A/Adjacent_Replacements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/A/Adjacent_Replacements_1006A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Elkood/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +38,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Abd Alqader NajjaR\IdeaProjects\Codeforces\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1WdAd2DcIR5XWU2OMYtzeQJEsT0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -61,9 +92,29 @@
       <option name="presentableId" value="Default" />
       <updated>1579469182373</updated>
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1579469536876</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579469536877</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1579469535337">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579469535337" />
+    <state x="261" y="65" key="Vcs.Push.Dialog.v2" timestamp="1579469561860">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="65" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579469561860" />
     <state x="523" y="175" key="chooseDestDirectoryDialog" timestamp="1579469253866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

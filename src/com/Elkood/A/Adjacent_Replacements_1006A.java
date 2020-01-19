@@ -1,4 +1,4 @@
-package com.Elkood;
+package com.Elkood.A;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,8 +7,7 @@ import java.io.PrintWriter;
 import java.util.StringTokenizer;
 import java.util.stream.IntStream;
 
-
-public class Main {
+public class Adjacent_Replacements_1006A {
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
@@ -18,11 +17,18 @@ public class Main {
     }
 
     public static void Input(FastReader input, PrintWriter pw) {
+        int n = input.nextInt();
+        IntStream.range(0, n).map(i -> input.nextInt()).forEach(u -> {
+            if (u % 2 == 0) {
+                pw.print((u - 1) + " ");
+            } else {
+                pw.print(u + " ");
+            }
+        });
 
     }
 
     public static class FastReader {
-
         BufferedReader br;
         StringTokenizer st;
 
@@ -126,5 +132,4 @@ public class Main {
 
 
 }
-
 

@@ -4,31 +4,60 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.StringTokenizer;
+import java.util.*;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class Adjacent_Replacements {
+
+public class Infinity_Gauntlet_987A {
+
+    static int n;
+    static String[] a;
+    final static G[] v = {
+            new G("purple", "Power"),
+            new G("green", "Time"),
+            new G("blue", "Space"),
+            new G("orange", "Soul"),
+            new G("red", "Reality"),
+            new G("yellow", "Mind"),
+    };
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new FastReader(), pw);
+        Input(new FastReader());
+        Solve(pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(FastReader input, PrintWriter pw) {
-        int n = input.nextInt();
-        IntStream.range(0, n).map(i -> input.nextInt()).forEach(u -> {
-            if (u % 2 == 0) {
-                pw.print((u - 1) + " ");
-            } else {
-                pw.print(u + " ");
-            }
-        });
+    public static void Solve(PrintWriter pw) {
+        Map<String, Integer> map = IntStream
+                .range(0, n).boxed().collect(Collectors.toMap(i -> a[i], i -> i + 1, (a1, b) -> b));
+        pw.println(Math.abs(map.size() - v.length));
+        IntStream.range(0, v.length)
+                .filter(i -> !map.containsKey(v[i].key)).mapToObj(i -> v[i].value).forEach(pw::println);
+    }
+
+    public static void Input(FastReader input) {
+        n = input.nextInt();
+        a = new String[n];
+        IntStream.range(0, n).forEach(i -> a[i] = input.nextLine());
 
     }
 
+    static class G {
+        String key;
+        String value;
+
+        public G(String key, String value) {
+            this.key = key;
+            this.value = value;
+        }
+    }
+
+
     public static class FastReader {
+
         BufferedReader br;
         StringTokenizer st;
 
