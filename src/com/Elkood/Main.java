@@ -23,6 +23,14 @@ public class Main {
     public static void Input(FastReader input, PrintWriter pw) {
         n = input.nextInt();
         a = input.nextIntArray();
+        int even, odd;
+        even = (int) IntStream.range(0, n).filter(i -> a[i] % 2 == 0).count();
+        odd = n - even;
+        if (even > odd) {
+            IntStream.range(0, n).filter(i -> a[i] % 2 != 0).findFirst().ifPresent(i -> pw.print(i + 1));
+        }else {
+            IntStream.range(0, n).filter(i -> a[i] % 2 == 0).findFirst().ifPresent(i -> pw.print(i + 1));
+        }
 
     }
 
