@@ -1,4 +1,4 @@
-package com.Elkood;
+package com.Elkood.A;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,19 +9,26 @@ import java.util.StringTokenizer;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-
-public class Main {
+public class Tanya_and_Stairways_1005A {
     static int n;
-    static int a[];
+    static int[] a;
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new FastReader(), pw);
+        Input(new com.Elkood.Main.FastReader(), pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(FastReader input, PrintWriter pw) {
+    public static void Input(com.Elkood.Main.FastReader input, PrintWriter pw) {
+        n = input.nextInt();
+        a = new int[n];
+        IntStream.range(0, n).forEach(i -> a[i] = input.nextInt());
+
+        ArrayList<Integer> ll = IntStream.range(0, n - 1).filter(i -> a[i] >= a[i + 1]).mapToObj(i -> a[i]).collect(Collectors.toCollection(ArrayList::new));
+        ll.add(a[n - 1]);
+        pw.println(ll.size());
+        IntStream.range(0, ll.size()).forEach(i -> pw.print(ll.get(i) + " "));
     }
 
     public static class FastReader {
@@ -129,5 +136,6 @@ public class Main {
 
 
 }
+
 
 

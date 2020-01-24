@@ -1,27 +1,28 @@
-package com.Elkood;
+package com.Elkood.A;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.ArrayList;
 import java.util.StringTokenizer;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
-
-public class Main {
+public class Three_Piles_of_Candies_1196A {
     static int n;
-    static int a[];
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new FastReader(), pw);
+        Input(new com.Elkood.Main.FastReader(), pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(FastReader input, PrintWriter pw) {
+    public static void Input(com.Elkood.Main.FastReader input, PrintWriter pw) {
+        n = input.nextInt();
+
+        while (n-- > 0) {
+            pw.println((input.nextLong() + input.nextLong() + input.nextLong()) / 2);
+        }
+
     }
 
     public static class FastReader {
@@ -44,11 +45,11 @@ public class Main {
             return st.nextToken();
         }
 
-        public int nextInt() {
+        int nextInt() {
             return Integer.parseInt(next());
         }
 
-        public long nextLong() {
+        long nextLong() {
             return Long.parseLong(next());
         }
 
@@ -129,5 +130,6 @@ public class Main {
 
 
 }
+
 
 
