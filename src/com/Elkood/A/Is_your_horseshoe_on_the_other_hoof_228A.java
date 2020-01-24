@@ -1,29 +1,42 @@
-package com.Elkood;
+package com.Elkood.A;
+
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.StringTokenizer;
 
-
-public class Main {
+public class Is_your_horseshoe_on_the_other_hoof_228A {
     static int n;
     static int[] a;
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new FastReader(), pw);
+        Input(new com.Elkood.Main.FastReader(), pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(FastReader input, PrintWriter pw) {
-        n = input.nextInt();
+    public static void Input(com.Elkood.Main.FastReader input, PrintWriter pw) {
         a = input.nextIntArray();
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < 4; ++i) {
+            if (!map.containsKey(a[i])) {
+                map.put(a[i], 1);
+            } else {
+                int b = map.get(a[i]) + 1;
+                map.put(a[i], b);
+            }
+        }
+        int max = 0;
+        for (Map.Entry<Integer, Integer> l : map.entrySet()) {
+            max += -1 + l.getValue();
+        }
 
+        pw.print(max);
     }
 
 
@@ -83,7 +96,7 @@ public class Main {
             return str;
         }
 
-        public int[] nextIntArray() {
+        int[] nextIntArray() {
             String[] data = nextStringArray();
             int[] a = new int[data.length];
 
