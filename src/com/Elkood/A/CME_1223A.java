@@ -1,25 +1,29 @@
-package com.Elkood;
+package com.Elkood.A;
+
+import com.Elkood.Main;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
+import java.util.StringTokenizer;
 
-
-public class Main {
+public class CME_1223A {
+    static int n;
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new FastReader(), pw);
+        Input(new Main.FastReader(), pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(FastReader input, PrintWriter pw) {
-
+    public static void Input(Main.FastReader input, PrintWriter pw) {
+        n = input.nextInt();
+        while (n-- > 0) {
+            int a = input.nextInt();
+            pw.println(a == 2 ? "2" : a % 2 == 0 && a > 2 ? "0" : "1");
+        }
     }
 
 
@@ -128,5 +132,6 @@ public class Main {
 
 
 }
+
 
 

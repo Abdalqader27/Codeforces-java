@@ -1,25 +1,42 @@
-package com.Elkood;
+package com.Elkood.A;
+
+import com.Elkood.Main;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
+import java.util.StringTokenizer;
 
-
-public class Main {
+public class Collecting_Coins_1294A {
+    static long t, n, a, b, c;
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new FastReader(), pw);
+        Input(new Main.FastReader(), pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(FastReader input, PrintWriter pw) {
+    public static void Input(Main.FastReader input, PrintWriter pw) {
+        t = input.nextLong();
+        while (t-- > 0) {
+            a = input.nextLong();
+            b = input.nextLong();
+            c = input.nextLong();
+            n = input.nextLong();
+            long m = Math.max(a, Math.max(b, c));
+            n -= (m - a) + (m - b) + (m - c);
+            if (n < 0) {
+                pw.println("NO");
+            } else {
+                if (n % 3 == 0) pw.println("YES");
+                else {
+                    pw.println("NO");
+                }
+            }
 
+        }
     }
 
 
@@ -32,7 +49,7 @@ public class Main {
             br = new BufferedReader(new InputStreamReader(System.in));
         }
 
-        public String next() {
+        String next() {
             while (st == null || !st.hasMoreElements()) {
                 try {
                     st = new StringTokenizer(br.readLine());
@@ -55,7 +72,7 @@ public class Main {
             return Double.parseDouble(next());
         }
 
-        public String nextLine() {
+        String nextLine() {
             String string = "";
             try {
                 string = br.readLine();
@@ -128,5 +145,6 @@ public class Main {
 
 
 }
+
 
 

@@ -1,25 +1,32 @@
-package com.Elkood;
+package com.Elkood.A;
+
+import com.Elkood.Main;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.StringTokenizer;
 import java.util.stream.IntStream;
 
-
-public class Main {
+public class Gennady_and_a_Card_1097A {
+    static String x;
+    static String[] s = new String[5];
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new FastReader(), pw);
+        Input(new Main.FastReader(), pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(FastReader input, PrintWriter pw) {
-
+    public static void Input(Main.FastReader input, PrintWriter pw) {
+        x = input.next();
+        IntStream.range(0, 5).forEach(i -> s[i] = input.next());
+        pw.println((int) IntStream.range(0, 5).filter(i ->
+                x.charAt(0) == s[i].charAt(0) ||
+                        x.charAt(1) == s[i].charAt(1)).count() >0?
+                "YES":"NO");
     }
 
 
@@ -32,7 +39,7 @@ public class Main {
             br = new BufferedReader(new InputStreamReader(System.in));
         }
 
-        public String next() {
+        String next() {
             while (st == null || !st.hasMoreElements()) {
                 try {
                     st = new StringTokenizer(br.readLine());
@@ -55,7 +62,7 @@ public class Main {
             return Double.parseDouble(next());
         }
 
-        public String nextLine() {
+        String nextLine() {
             String string = "";
             try {
                 string = br.readLine();
@@ -128,5 +135,6 @@ public class Main {
 
 
 }
+
 
 
