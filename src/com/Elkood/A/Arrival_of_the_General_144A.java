@@ -1,28 +1,26 @@
-package com.Elkood;
+package com.Elkood.A;
+
+import com.Elkood.Main;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.lang.reflect.Array;
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
+import java.util.StringTokenizer;
 
-
-public class Main {
+public class Arrival_of_the_General_144A {
     static int n;
     static int[] a;
 
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new FastReader(), pw);
+        Input(new Main.FastReader(), pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(FastReader input, PrintWriter pw) {
+    public static void Input(Main.FastReader input, PrintWriter pw) {
         n = input.nextInt();
         a = new int[n];
         a = input.nextIntArray();
@@ -169,5 +167,6 @@ public class Main {
 
 
 }
+
 
 
