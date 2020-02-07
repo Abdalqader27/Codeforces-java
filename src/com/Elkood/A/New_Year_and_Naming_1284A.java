@@ -1,30 +1,26 @@
-package com.Elkood;
+package com.Elkood.A;
 
-import javafx.util.Pair;
+import com.Elkood.Main;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.lang.reflect.Array;
-import java.math.BigInteger;
-import java.util.*;
-import java.util.stream.IntStream;
+import java.util.StringTokenizer;
 
-
-public class Main {
+public class New_Year_and_Naming_1284A {
     static int n, m;
     static String[] s, t;
     static int x;
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new FastReader(), pw);
+        Input(new Main.FastReader(), pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(FastReader input, PrintWriter pw) {
+    public static void Input(Main.FastReader input, PrintWriter pw) {
 
         n = input.nextInt();
         m = input.nextInt();
@@ -85,7 +81,7 @@ public class Main {
             return next().charAt(0);
         }
 
-        public String[] nextStringArray() {
+        String[] nextStringArray() {
             String[] str = null;
             try {
                 str = this.br.readLine().trim().split(" ");
@@ -144,5 +140,6 @@ public class Main {
 
 
 }
+
 
 

@@ -1,43 +1,66 @@
-package com.Elkood;
+package com.Elkood.C;
 
+import com.Elkood.Main;
 import javafx.util.Pair;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.lang.reflect.Array;
-import java.math.BigInteger;
-import java.util.*;
-import java.util.stream.IntStream;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.StringTokenizer;
 
-
-public class Main {
-    static int n, m;
-    static String[] s, t;
-    static int x;
+public class Yet_Another_Walking_Robot_1296C {
+    static int t;
+    static int n;
+    static String s;
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new FastReader(), pw);
+        Input(new Main.FastReader(), pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(FastReader input, PrintWriter pw) {
-
-        n = input.nextInt();
-        m = input.nextInt();
-        s = new String[n];
-        s = input.nextStringArray();
-        t = new String[m];
-        t = input.nextStringArray();
-        x = input.nextInt();
-        while (x-- > 0) {
-            int h = input.nextInt();
-            pw.println(s[h % n == 0 ? n - 1 : (h % n) - 1] + "" + t[h % m == 0 ? m - 1 : (h % m) - 1]);
+    public static void Input(Main.FastReader input, PrintWriter pw) {
+        t = input.nextInt();
+        while (t-- > 0) {
+            n = input.nextInt();
+            s = input.nextLine();
+            int x = 0, y = 0, min = Integer.MAX_VALUE;
+            int temp1 = -1, temp2 = -1;
+            Map<Pair<Integer,Integer>, Integer> map = new HashMap<>();
+            map.put(new Pair<>(0,0), 0);
+            for (int i = 0; i < n; i++) {
+                if (s.charAt(i) == 'L')
+                    x--;
+                if (s.charAt(i) == 'R')
+                    x++;
+                if (s.charAt(i) == 'U')
+                    y++;
+                if (s.charAt(i) == 'D')
+                    y--;
+                Pair<Integer,Integer>p=new Pair<>(x,y);
+                if (map.containsKey(p)) {
+                    int l = map.get(p) + 1;
+                    int r = i + 1;
+                    int len = r - l + 1;
+                    if (len < min) {
+                        temp1 = l;
+                        temp2 = r;
+                        min = len;
+                    }
+                }
+                map.put(p, (i + 1));
+            }
+            if (temp1 != -1 && temp2!=-1)
+                pw.println(temp1 + " " + temp2);
+            else
+                pw.println(-1);
         }
     }
+
 
     public static class FastReader {
 
@@ -85,7 +108,7 @@ public class Main {
             return next().charAt(0);
         }
 
-        public String[] nextStringArray() {
+        String[] nextStringArray() {
             String[] str = null;
             try {
                 str = this.br.readLine().trim().split(" ");
