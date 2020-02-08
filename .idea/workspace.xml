@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09f7fca1-919f-4dd2-8b47-c45182058aab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Elkood/A/New_Year_and_Naming_1284A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Elkood/C/Yet_Another_Walking_Robot_1296C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Elkood/A/Frog_Jumping_1077A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Elkood/A/k_th_divisor_762A.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Elkood/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/Main.java" afterDir="false" />
     </list>
@@ -42,7 +42,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Frog_Jumping_1077A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Elkood.A.Frog_Jumping_1077A" />
+      <module name="Codeforces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Elkood.A.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.Elkood.Main" />
       <module name="Codeforces" />
@@ -56,6 +69,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Frog_Jumping_1077A" />
       </list>
     </recent_temporary>
   </component>
@@ -138,53 +152,89 @@
       <option name="project" value="LOCAL" />
       <updated>1580590641125</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="push 2 problems">
+      <created>1581110616905</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581110616905</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="push 18 problems" />
-    <MESSAGE value="push 2 problems" />
     <MESSAGE value="push 4 problems" />
     <MESSAGE value="push 1 problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="push 1 problems" />
+    <MESSAGE value="push 2 problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="push 2 problems" />
   </component>
   <component name="WindowStateProjectService">
     <state x="436" y="98" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1581085752185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="436" y="98" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1581085752185" />
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1580590640207">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1581110615206">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580590640207" />
-    <state width="1481" height="195" key="GridCell.Tab.0.bottom" timestamp="1581110281012">
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581110615206" />
+    <state width="1481" height="194" key="GridCell.Tab.0.bottom" timestamp="1581197012041">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581110281012" />
-    <state width="1481" height="195" key="GridCell.Tab.0.center" timestamp="1581110281012">
+    <state width="1481" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581197012041" />
+    <state width="1481" height="194" key="GridCell.Tab.0.center" timestamp="1581197012040">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581110281012" />
-    <state width="1481" height="195" key="GridCell.Tab.0.left" timestamp="1581110281012">
+    <state width="1481" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581197012040" />
+    <state width="1481" height="194" key="GridCell.Tab.0.left" timestamp="1581197012040">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581110281012" />
-    <state width="1481" height="195" key="GridCell.Tab.0.right" timestamp="1581110281012">
+    <state width="1481" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581197012040" />
+    <state width="1481" height="194" key="GridCell.Tab.0.right" timestamp="1581197012041">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581110281012" />
-    <state x="261" y="65" key="Vcs.Push.Dialog.v2" timestamp="1580590643092">
+    <state width="1481" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581197012041" />
+    <state x="261" y="65" key="Vcs.Push.Dialog.v2" timestamp="1581110619145">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="65" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580590643092" />
+    <state x="261" y="65" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581110619145" />
     <state x="523" y="175" key="chooseDestDirectoryDialog" timestamp="1579469253866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="523" y="175" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1579469253866" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1581191088517">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1581191088517" />
+    <state x="341" y="183" key="run.anything.popup" timestamp="1581190528491">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="341" y="183" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1581190528491" />
     <state x="347" y="-1" key="search.everywhere.popup" timestamp="1580590103675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="347" y="-1" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580590103675" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Elkood/A/Frog_Jumping_1077A.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Elkood/A/Frog_Jumping_1077A.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Elkood/A/Frog_Jumping_1077A.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,29 +1,26 @@
-package com.Elkood;
+package com.Elkood.A;
 
-import javafx.util.Pair;
+import com.Elkood.Main;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.lang.reflect.Array;
-import java.math.BigInteger;
-import java.util.*;
-import java.util.stream.IntStream;
+import java.util.StringTokenizer;
+import java.util.TreeSet;
 
-
-public class Main {
+public class k_th_divisor_762A {
     static long a;
     static long b;
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new FastReader(), pw);
+        Input(new Main.FastReader(), pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(FastReader input, PrintWriter pw) {
+    public static void Input(Main.FastReader input, PrintWriter pw) {
         a = input.nextLong();
         b = input.nextLong();
         TreeSet<Long> r = new TreeSet<>();
@@ -146,5 +143,6 @@ public class Main {
 
 
 }
+
 
 

@@ -1,44 +1,35 @@
-package com.Elkood;
+package com.Elkood.A;
 
-import javafx.util.Pair;
+import com.Elkood.Main;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.lang.reflect.Array;
-import java.math.BigInteger;
-import java.util.*;
-import java.util.stream.IntStream;
+import java.util.StringTokenizer;
 
-
-public class Main {
-    static long a;
-    static long b;
+public class Frog_Jumping_1077A {
+    static int t;
+    static long a, b, k;
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new FastReader(), pw);
+        Input(new Main.FastReader(), pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(FastReader input, PrintWriter pw) {
-        a = input.nextLong();
-        b = input.nextLong();
-        TreeSet<Long> r = new TreeSet<>();
-        long c = 1;
-        long i;
-        for (i = 1; i * i <= a; i++) { if (a % i == 0) { r.add(i);r.add(a / i); } }
-        for (long l : r) { if (c == b) { pw.println(l);return; }c++; }
-        pw.println(-1);
-    }
+    public static void Input(Main.FastReader input, PrintWriter pw) {
+
+        t = input.nextInt();
+        while (t-- > 0) {
+            a = input.nextLong();
+            b = input.nextLong();
+            k = input.nextLong();
+            pw.println(k % 2 != 0 ? (a * (k / 2 + 1)) - b * (k / 2) : (a * (k / 2)) - b * (k / 2));
 
 
-    static long gcd(long a, long b) {
-        if (b == 0)
-            return a;
-        return gcd(b, a % b);
+        }
     }
 
     public static class FastReader {
