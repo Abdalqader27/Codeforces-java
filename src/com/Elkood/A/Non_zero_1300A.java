@@ -1,4 +1,6 @@
-package com.Elkood;
+package com.Elkood.A;
+
+import com.Elkood.Main;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,43 +8,33 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
-
-public class Main {
+public class Non_zero_1300A {
     static int t;
     static int n;
     static int a[];
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new FastReader(), pw);
+        Input(new Main.FastReader(), pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(FastReader input, PrintWriter pw) {
+    public static void Input(Main.FastReader input, PrintWriter pw) {
         t = input.nextInt();
         int zero = 0;
         int sum = 0;
         int ans = 0;
         while (t-- > 0) {
+
             n = input.nextInt();
             a = input.nextIntArray();
-            ans = 0;
-            zero = 0;
-            sum = 0;
+
+            ans = 0; zero = 0; sum = 0;
             int i = 0;
-            while (i < n) {
-                if (a[i] == 0) zero++;
-                sum += a[i];
-                 i++; }
-            if (zero > 0 ) {
-                sum += zero;
-                ans = zero;
-            }
-            while (sum == 0) {
-                sum++;
-                ans++;
-            }
+            while (i < n) {  if (a[i] == 0) zero++; sum += a[i]; i++; }
+            if (zero > 0 ) { sum += zero; ans = zero; }
+            while (sum == 0) { sum++;ans++; }
             pw.println(ans);
 
         }
@@ -154,5 +146,6 @@ public class Main {
 
 
 }
+
 
 
