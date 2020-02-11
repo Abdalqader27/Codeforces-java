@@ -13,12 +13,12 @@ public class CME_1223A {
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new Main.FastReader(), pw);
+        Input(new FastReader(), pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(Main.FastReader input, PrintWriter pw) {
+    public static void Input(FastReader input, PrintWriter pw) {
         n = input.nextInt();
         while (n-- > 0) {
             int a = input.nextInt();

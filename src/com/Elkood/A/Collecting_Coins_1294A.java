@@ -13,12 +13,12 @@ public class Collecting_Coins_1294A {
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new Main.FastReader(), pw);
+        Input(new FastReader(), pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(Main.FastReader input, PrintWriter pw) {
+    public static void Input(FastReader input, PrintWriter pw) {
         t = input.nextLong();
         while (t-- > 0) {
             a = input.nextLong();

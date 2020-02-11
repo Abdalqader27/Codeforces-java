@@ -15,12 +15,12 @@ public class k_th_divisor_762A {
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new Main.FastReader(), pw);
+        Input(new FastReader(), pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(Main.FastReader input, PrintWriter pw) {
+    public static void Input(FastReader input, PrintWriter pw) {
         a = input.nextLong();
         b = input.nextLong();
         TreeSet<Long> r = new TreeSet<>();

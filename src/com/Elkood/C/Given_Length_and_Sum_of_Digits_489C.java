@@ -1,9 +1,9 @@
-package com.Elkood;
+package com.Elkood.C;
 
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class Main {
+public class Given_Length_and_Sum_of_Digits_489C {
     static int m, s;
 
     public static void main(String[] args) {
@@ -32,7 +32,7 @@ public class Main {
         for (int i = 0; i < m; ++i)
         {
             if (SUB >= 9) { SUB -= 9; MAX.append("9"); }
-        else {MAX.append(SUB); SUB-=SUB; }
+            else {MAX.append(SUB); SUB-=SUB; }
         }
         if(SUB>0){pw.println((-1) + " " + (-1));
             pw.flush();
@@ -46,13 +46,14 @@ public class Main {
             for(int i=1;i<m;++i){
                 if(Min.charAt(i)!='0')
                 {
-                Min.setCharAt(i,(char)(Min.charAt(i)-1));
-                break;
-                 }
+                    Min.setCharAt(i,(char)(Min.charAt(i)-1));
+                    break;
+                }
             }}
-            pw.println(Min +" "+MAX);
+        pw.println(Min +" "+MAX);
 
 
     }
 
 }
+

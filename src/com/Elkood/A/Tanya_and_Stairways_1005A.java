@@ -15,12 +15,12 @@ public class Tanya_and_Stairways_1005A {
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new com.Elkood.Main.FastReader(), pw);
+        Input(new FastReader(), pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(com.Elkood.Main.FastReader input, PrintWriter pw) {
+    public static void Input(FastReader input, PrintWriter pw) {
         n = input.nextInt();
         a = new int[n];
         IntStream.range(0, n).forEach(i -> a[i] = input.nextInt());

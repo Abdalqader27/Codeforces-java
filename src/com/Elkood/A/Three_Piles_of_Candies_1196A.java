@@ -11,12 +11,12 @@ public class Three_Piles_of_Candies_1196A {
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new com.Elkood.Main.FastReader(), pw);
+        Input(new FastReader(), pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(com.Elkood.Main.FastReader input, PrintWriter pw) {
+    public static void Input(FastReader input, PrintWriter pw) {
         n = input.nextInt();
 
         while (n-- > 0) {

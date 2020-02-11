@@ -15,12 +15,12 @@ public class Gennady_and_a_Card_1097A {
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new Main.FastReader(), pw);
+        Input(new FastReader(), pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(Main.FastReader input, PrintWriter pw) {
+    public static void Input(FastReader input, PrintWriter pw) {
         x = input.next();
         IntStream.range(0, 5).forEach(i -> s[i] = input.next());
         pw.println((int) IntStream.range(0, 5).filter(i ->

@@ -15,12 +15,12 @@ public class Is_your_horseshoe_on_the_other_hoof_228A {
 
     public static void main(String[] args) {
         PrintWriter pw = new PrintWriter(System.out);
-        Input(new com.Elkood.Main.FastReader(), pw);
+        Input(new FastReader(), pw);
         pw.flush();
         pw.close();
     }
 
-    public static void Input(com.Elkood.Main.FastReader input, PrintWriter pw) {
+    public static void Input(FastReader input, PrintWriter pw) {
         a = input.nextIntArray();
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < 4; ++i) {
