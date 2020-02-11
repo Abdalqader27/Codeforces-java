@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09f7fca1-919f-4dd2-8b47-c45182058aab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Elkood/C/Given_Length_and_Sum_of_Digits_489C.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Elkood/A/Arrival_of_the_General_144A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/A/Arrival_of_the_General_144A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Elkood/A/Bachgold_Problem_749A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/A/Bachgold_Problem_749A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Elkood/A/CME_1223A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/A/CME_1223A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Elkood/A/Collecting_Coins_1294A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/A/Collecting_Coins_1294A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Elkood/A/Frog_Jumping_1077A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/A/Frog_Jumping_1077A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Elkood/A/Gennady_and_a_Card_1097A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/A/Gennady_and_a_Card_1097A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Elkood/A/Is_your_horseshoe_on_the_other_hoof_228A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/A/Is_your_horseshoe_on_the_other_hoof_228A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Elkood/A/Love_A_1146A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/A/Love_A_1146A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Elkood/A/New_Year_and_Naming_1284A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/A/New_Year_and_Naming_1284A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Elkood/A/Non_zero_1300A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/A/Non_zero_1300A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Elkood/A/Tanya_and_Stairways_1005A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/A/Tanya_and_Stairways_1005A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Elkood/A/Three_Piles_of_Candies_1196A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/A/Three_Piles_of_Candies_1196A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Elkood/A/k_th_divisor_762A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/A/k_th_divisor_762A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Elkood/C/Yet_Another_Walking_Robot_1296C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/C/Yet_Another_Walking_Robot_1296C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Elkood/C/Given_Length_and_Sum_of_Digits_489C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/C/Given_Length_and_Sum_of_Digits_489C.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Elkood/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581364341117</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="push  problems">
+      <created>1581452480356</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1581452480356</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,37 +188,38 @@
     <MESSAGE value="push 4 problems" />
     <MESSAGE value="push 1 problems" />
     <MESSAGE value="push 2 problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="push 2 problems" />
+    <MESSAGE value="push  problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="push  problems" />
   </component>
   <component name="WindowStateProjectService">
     <state x="436" y="98" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1581085752185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="436" y="98" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1581085752185" />
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1581364340031">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1581452478918">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581364340031" />
-    <state width="1481" height="116" key="GridCell.Tab.0.bottom" timestamp="1581452343250">
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581452478918" />
+    <state width="1481" height="325" key="GridCell.Tab.0.bottom" timestamp="1581454007320">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="116" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581452343250" />
-    <state width="1481" height="116" key="GridCell.Tab.0.center" timestamp="1581452343250">
+    <state width="1481" height="325" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581454007320" />
+    <state width="1481" height="325" key="GridCell.Tab.0.center" timestamp="1581454007320">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="116" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581452343250" />
-    <state width="1481" height="116" key="GridCell.Tab.0.left" timestamp="1581452343250">
+    <state width="1481" height="325" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581454007320" />
+    <state width="1481" height="325" key="GridCell.Tab.0.left" timestamp="1581454007320">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="116" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581452343250" />
-    <state width="1481" height="116" key="GridCell.Tab.0.right" timestamp="1581452343250">
+    <state width="1481" height="325" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581454007320" />
+    <state width="1481" height="325" key="GridCell.Tab.0.right" timestamp="1581454007320">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="116" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581452343250" />
-    <state x="261" y="65" key="Vcs.Push.Dialog.v2" timestamp="1581364344351">
+    <state width="1481" height="325" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581454007320" />
+    <state x="261" y="65" key="Vcs.Push.Dialog.v2" timestamp="1581452482478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="65" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581364344351" />
+    <state x="261" y="65" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581452482478" />
     <state x="523" y="175" key="chooseDestDirectoryDialog" timestamp="1579469253866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

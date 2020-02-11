@@ -38,6 +38,7 @@ public class Given_Length_and_Sum_of_Digits_489C {
             pw.flush();
             pw.close();
             System.exit(0);}
+
         StringBuilder Min=new StringBuilder(MAX);
         Min.reverse();
 

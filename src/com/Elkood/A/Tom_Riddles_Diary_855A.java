@@ -1,11 +1,11 @@
-package com.Elkood;
+package com.Elkood.A;
 
 import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Main {
+public class Tom_Riddles_Diary_855A {
     static int t;
 
     public static void main(String[] args) {
@@ -30,3 +30,4 @@ public class Main {
 
     }
 }
+
