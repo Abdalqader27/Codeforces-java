@@ -1,9 +1,9 @@
-package com.Elkood;
+package com.Elkood.A;
 
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class Main {
+public class There_Are_Two_Types_Of_Burgers_1207A {
     static int t;
     static int b, p, f;
     static int h, c;
@@ -36,4 +36,5 @@ public class Main {
         }
     }
 }
+
 

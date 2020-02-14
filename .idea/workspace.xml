@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="09f7fca1-919f-4dd2-8b47-c45182058aab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Elkood/C/Given_Length_and_Sum_of_Digits_489C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/C/Given_Length_and_Sum_of_Digits_489C.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Elkood/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Elkood/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -179,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581452480356</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="push  problems">
+      <created>1581454149226</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1581454149226</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -196,30 +203,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="436" y="98" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1581085752185" />
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1581452478918">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1581454148333">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581452478918" />
-    <state width="1481" height="325" key="GridCell.Tab.0.bottom" timestamp="1581454007320">
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581454148333" />
+    <state width="1481" height="325" key="GridCell.Tab.0.bottom" timestamp="1581705013506">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="325" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581454007320" />
-    <state width="1481" height="325" key="GridCell.Tab.0.center" timestamp="1581454007320">
+    <state width="1481" height="325" key="GridCell.Tab.0.bottom/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1581506243315" />
+    <state width="1481" height="325" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581705013506" />
+    <state width="1481" height="325" key="GridCell.Tab.0.center" timestamp="1581705013505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="325" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581454007320" />
-    <state width="1481" height="325" key="GridCell.Tab.0.left" timestamp="1581454007320">
+    <state width="1481" height="325" key="GridCell.Tab.0.center/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1581506243315" />
+    <state width="1481" height="325" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581705013505" />
+    <state width="1481" height="325" key="GridCell.Tab.0.left" timestamp="1581705013505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="325" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581454007320" />
-    <state width="1481" height="325" key="GridCell.Tab.0.right" timestamp="1581454007320">
+    <state width="1481" height="325" key="GridCell.Tab.0.left/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1581506243315" />
+    <state width="1481" height="325" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581705013505" />
+    <state width="1481" height="325" key="GridCell.Tab.0.right" timestamp="1581705013506">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="325" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581454007320" />
-    <state x="261" y="65" key="Vcs.Push.Dialog.v2" timestamp="1581452482478">
+    <state width="1481" height="325" key="GridCell.Tab.0.right/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1581506243315" />
+    <state width="1481" height="325" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581705013506" />
+    <state x="261" y="65" key="Vcs.Push.Dialog.v2" timestamp="1581454151710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="65" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581452482478" />
+    <state x="261" y="65" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581454151710" />
     <state x="523" y="175" key="chooseDestDirectoryDialog" timestamp="1579469253866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -254,6 +265,11 @@
           <url>file://$PROJECT_DIR$/src/com/Elkood/A/Frog_Jumping_1077A.java</url>
           <line>23</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Elkood/Main.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
