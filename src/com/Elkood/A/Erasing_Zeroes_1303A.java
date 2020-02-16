@@ -1,10 +1,10 @@
-package com.Elkood;
+package com.Elkood.A;
 
 import java.io.PrintWriter;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
-public class Main {
+public class Erasing_Zeroes_1303A {
     static String x;
     static int t;
 
@@ -30,4 +30,5 @@ public class Main {
         }
     }
 }
+
 
