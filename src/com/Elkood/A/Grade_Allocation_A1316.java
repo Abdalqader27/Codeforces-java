@@ -1,11 +1,11 @@
-package com.Elkood;
+package com.Elkood.A;
 
 import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
-public class Main {
+public class Grade_Allocation_A1316 {
     static int t;
     static int n, m;
     static int[] a;
@@ -35,5 +35,6 @@ public class Main {
     }
 
 }
+
 
 
